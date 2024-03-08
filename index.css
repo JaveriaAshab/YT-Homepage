@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+.Topnav {
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    overflow: hidden;
+    position: fixed 0px;
+    width: 1583px;
+    height: 42px;
+    margin: 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+.fa-youtube {
+    font-size: 25px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 6px;
+    position: fixed 0px;
+}
+.name{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4px;
+    margin-top: 10px;
+    color: white;
+}
+.search {
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 450px;
+    width: 500px;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 15px;
+}
+.search input{
+    border: none;
+    height: 23px;
+    width: calc(100% - 60px);
+    border-radius: 0;
+    position: relative;
+    top: -7px;
+    bottom: 5px;
+}
+.search input:focus{
+    outline: none;
+}
+.fa-magnifying-glass {
+    color: rgb(95, 95, 95);
+    border: none;
+    width: 10px;
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    cursor: pointer;
+    margin-left: 28px;
+    top: -3px;
+    bottom: 3px;
+}
+.microphone{
+    background-color: rgb(95, 95, 95);
+    width: 30px;
+    border-radius: 15px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+.fa-microphone {
+    color: rgb(255, 255, 255);
+    margin-left: 9px;
+    margin-top: 7px;
+}
+.body {
+    background-color: rgb(3, 3, 3);
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    padding-top: 5px;
+    width: 150px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0,0, 0.5);
+}
+.lines{
+    display: flex;
+    transition: all 0.5s ease;
+}
+.lines i{
+    width: 5px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.lines:hover{
+    background-color: rgb(95, 95, 95);
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 5px;
+}
+a{
+    position: relative;
+    color: white;
+    font-size: 13px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fa{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    margin-left: 20px;
+}
+a:hover{
+    background: rgba(95, 95, 95, 95);
+}
+/* nav:hover{
+    width: 150px;
+    transition: all 0.5s ease;
+} */
+.you{
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    margin-top: 310px;
+}
+.login{
+    color: white;
+    font-size: 20px;
+    margin-left: 1550px;
+    margin-top: 10px;
+    position: fixed;
+}
+.notification{
+    color: white;
+    font-size: 15px;
+    margin-left: 1517px;
+    margin-top: 11px;
+    position: fixed;
+}
+.create{
+    color: white;
+    font-size: 15px;
+    margin-left: 1481px;
+    margin-top: 11px;
+    position: fixed;
+}
+.categories{
+    color: white;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    width: 1300px;
+    height: 47px;
+    margin-left: 250px;
+    gap: 8px;
+    padding-top: 15px;
+}
+p{
+    background-color: rgb(44, 44, 44);
+    padding: 5px;
+    text-align: center;
+    font-size: 11.5px;
+    font: small-caps;
+    border-radius: 5px;
+    height: fit-content;
+    cursor: pointer;
+}
+p:hover{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.videos{
+    margin-left: 160px;
+    display: flex;
+
+}
+iframe{
+    margin-left: 8px;
+    border-radius: 15px;
+}
+figcaption{
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 265px;
+    margin-bottom: 0px;
+    line-height: 17px;
+    cursor: pointer;
+}
+label{
+    font-size: 10px;
+    line-height: 1px;
+    cursor: pointer;
+}
